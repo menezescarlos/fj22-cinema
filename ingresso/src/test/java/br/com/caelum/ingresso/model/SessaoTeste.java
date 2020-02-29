@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SessaoTeste {
 	
 	@Test
-	public void oPrecoDaSessaoDeveSerIgualASomDoPrecoDaSalaMAisOPrecoDoDilme() {
+	public void oPrecoDaSessaoDeveSerIgualASomDoPrecoDaSalaMaisOPrecoDoFilme() {
 		
 		Sala sala = new Sala("Eldorado - IMax", new BigDecimal("22.5"));
 		Filme filme = new Filme("Rogue One", Duration.ofMinutes(120),
